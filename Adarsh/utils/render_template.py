@@ -37,24 +37,24 @@ async def render_page(id, secure_hash):
     current_url = f'{Var.URL}/{str(id)}/{file_data.file_name}?hash={secure_hash}'
     html_code = f'''
    <p>
-    <center><h5>Click on 👇 button to watch/download in your favorite player</h5></center>
-    <center>
-        <button style="font-size: 20px; background-color: skyblue; border-radius: 10px;" onclick="window.location.href = 'intent:{current_url}#Intent;package=com.mxtech.videoplayer.ad;S.title={file_data.file_name};end'">MX player</button> &nbsp
-        <button style="font-size: 20px; background-color: orange; border-radius: 10px;" onclick="window.location.href = 'vlc://{current_url}'">VLC player</button> &nbsp <br>
-        <p>&nbsp</p>
-        <button style="font-size: 20px; background-color: red; border-radius: 10px;" onclick="window.location.href = 'playit://playerv2/video?url={current_url}&amp;title={file_data.file_name}'">Playit player</button> &nbsp <br>
-        <p>&nbsp</p>
-        <button style="font-size: 20px; background-color: yellow; border-radius: 10px;" onclick="window.location.href = '{current_url}'">Save in your gallery</button> &nbsp
-    </center>
+    <center><h4 style="font-family: 'Poppins'">Click on 👇 button to watch/download in your favorite player</h4></center>
+        <center>
+            <button style="color: white; font-size: 20px; background-color: #5e88eb; padding: 10px; border: 1px solid transparent; border-radius: 3px;" onclick="window.location.href = 'intent:{current_url}#Intent;package=com.mxtech.videoplayer.ad;S.title={file_data.file_name};end'">MX Player</button> &nbsp
+            <button style="color: white; font-size: 20px; background-color: #5e88eb; padding: 10px; border: 1px solid transparent; border-radius: 3px;" onclick="window.location.href = 'vlc://{current_url}'">VLC player</button> &nbsp <br>
+            <p>&nbsp</p>
+            <button style="color: white; font-size: 20px; background-color: #5e88eb; padding: 10px; border: 1px solid transparent; border-radius: 3px;" onclick="window.location.href = 'playit://playerv2/video?url={current_url}&amp;title={file_data.file_name}'">Playit player</button> &nbsp <br>
+            <p>&nbsp</p>
+            <button style="color: white; font-size: 20px; background-color: #5e88eb; padding: 10px; border: 1px solid transparent; border-radius: 3px;" onclick="window.location.href = '{current_url}'">Save in your gallery</button> &nbsp
+        </center>
 </p>
 </p>
 <center>
-    <h2>
-        <a href="https://telegram.dog/+kc6bYRCsWdlhOTI1">
-            <img src="https://graph.org/file/b57cdba982191a25db535.jpg" alt="Rkbotz" width="150" height="75">
-        </a>
-    </h2>
-</center>
+        <h2>
+            <a href="https://telegram.dog/expertbotz">
+                <img src="https://www.nicepng.com/png/detail/361-3615709_26-jun-join-us-on-telegram.png" alt="Expertbotz" width="50%" height="50%">
+            </a>
+        </h2>
+    </center>
 
 '''
 
