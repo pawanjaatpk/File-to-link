@@ -51,7 +51,7 @@ async def render_page(id, secure_hash):
 <center>
         <h2>
             <a href="https://telegram.dog/expertbotz">
-                <img src="https://www.nicepng.com/png/detail/361-3615709_26-jun-join-us-on-telegram.png" alt="Expertbotz" width="50%" height="50%">
+                <img src="https://www.mightytips.com/image/cache/data/2020/10/Join-us-on-telegram-9-0x0.png.webp" alt="Expertbotz" width="50%" height="50%">
             </a>
         </h2>
     </center>
